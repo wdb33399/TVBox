@@ -2,7 +2,7 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
   "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0518/00/153f72bc1a471c4b16441d1674c9dcb3.jpg;md5;7b7d2cac7c6afd6c6f9da828b2f89131",
-  "warningText": "豆瓣",
+  "warningText": " ",
   "sites": [
     {
       "key": "豆瓣2",
@@ -18,7 +18,7 @@
       "api": "csp_Notice",
       "searchable": 1,
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/f3b31497ca266ea4f8a89c88e9385f48.jpg;md5;ff4f99fad585f4935fcaa06e3092e44a",
-      "ext": " "
+      "ext": "https://tv.nxog.top/m/公告?b=tv"
     },
     {
       "key": "config",
