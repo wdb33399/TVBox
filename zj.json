@@ -1,52 +1,43 @@
 {
-  "wallpaper": "https://tv.nxog.top/m/t/",
-  "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
-  "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0518/00/153f72bc1a471c4b16441d1674c9dcb3.jpg;md5;7b7d2cac7c6afd6c6f9da828b2f89131",
-  "warningText": " ",
-  "sites": [
+  "壁纸": "https://tv.nxog.top/m/t/",
+  "标志": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
+  "蜘蛛": "https://ncstatic-file.clewm.net/rsrc/2026/0518/00/153f72bc1a471c4b16441d1674c9dcb3.jpg;md5;7b7d2cac7c6afd6c6f9da828b2f89131",
+  "警告文本": "豆瓣",
+  "网站": [
     {
-      "key": "豆瓣2",
-      "name": " ",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
+      "键": "豆瓣2",
+      "名字": " ",
+      "类型": 3,
+      "api"："csp_Douban"，
+      "可搜索的"：0
     },
     {
-      "key": "豆瓣1",
-      "name": " ",
-      "type": 3,
-      "api": "csp_Notice",
-      "searchable": 1,
-      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/f3b31497ca266ea4f8a89c88e9385f48.jpg;md5;ff4f99fad585f4935fcaa06e3092e44a",
-      "ext": "https://tv.nxog.top/m/公告?b=tv"
-    },
-    {
-      "key": "config",
-      "name": "🐲歌配置｜中心",
-      "type": 3,
-      "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/0f8ea2f30bb7607d0e4603fe999b64f6.jpg;md5;fb2c84ce1e3d69aa669be42e7fd3539b",
+      "键": "配置",
+      "名称": "🐲歌配置｜中心",
+      "类型": 3,
+      "罐子": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/0f8ea2f30bb7607d0e4603fe999b64f6.jpg;md5;fb2c84ce1e3d69aa669be42e7fd3539b",
       "api": "csp_Config",
-      "searchable": 0
+      "可搜索的"：0
     },
     {
-      "key": "配置中心",
-      "name": "❤配置｜中心",
-      "type": 3,
+      "键": "配置中心",
+      "名称": "❤配置｜中心",
+      "类型": 3,
       "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+      "可搜索的": 0,
+      "可变的"：0，
+      "样式": {
+        "类型": "矩形",
+        "比率"：1.597
       }
     },
     {
-      "key": "csp_wogg1",
-      "name": "🐲玩歌｜4K弹幕",
-      "type": 3,
-      "changeable": "0",
-      "api": "csp_Duopan",
-      "filterable": 1,
+      "键": "csp_wogg1",
+      "名称": "🐲玩歌｜4K弹幕",
+      "类型": 3,
+      "可变的": "0",
+      "api"："csp_Duopan"，
+      "可过滤的": 1,
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/99a8688790a84bc34e00f00082776fd7.jpg;md5;95d710fd96c41285f275b40ee4272a75",
       "ext": {
         "site_urls": [
