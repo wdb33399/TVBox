@@ -1,11 +1,11 @@
 {
-  "spider": "./f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57",
+  "spider": "https://raw.githubusercontent.com/wdb33399/TVBox/refs/heads/main/OK/OK.jar;md5;eff2819b1a4dd3c22c17cad6ad645f57",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/ACB34B_773_photo_2022-09-14_00-00-57_20251204145106336newMediaImage.jpg",
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🤓公众号┃OK杰克",
+      "name": "豆瓣",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
