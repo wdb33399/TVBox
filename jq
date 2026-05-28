@@ -25,58 +25,6 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       }
-    },
-    {
-      "key": "农民影视",
-      "name": "💡农民｜影视",
-      "type": 3,
-      "api": "csp_Wwys",
-      "ext": "https://vip.wwgz.cn:5200"
-    },
-    {
-      "key": "三六零",
-      "name": "💡三六｜视频",
-      "type": 3,
-      "api": "csp_SP360"
-    },
-    {
-      "key": "骚火影视",
-      "name": "💡骚火｜影视",
-      "type": 3,
-      "api": "csp_SaoHuo",
-      "playerType": 2,
-      "ext": "https://shdy5.us"
-    },
-    {
-      "key": "金牌影视",
-      "name": "💡金牌｜影视",
-      "type": 3,
-      "api": "csp_Jpys",
-      "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-    },
-    {
-      "key": "云播影视",
-      "name": "💡云播｜影视",
-      "type": 3,
-      "api": "csp_Tvyb",
-      "ext": "http://www.tvyb03.com"
-    },
-    {
-      "key": "1905",
-      "name": "💡1905｜影视",
-      "type": 3,
-      "api": "csp_Web1905",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "移动",
-      "name": "💡移动｜影视",
-      "type": 3,
-      "api": "csp_YDjisu",
-      "searchable": 1,
-      "quickSearch": 1
     }
   ],
   "parses": [
