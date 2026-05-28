@@ -1,5 +1,5 @@
 {
-  "spider": "https://codeberg.org/wdb33399/TVBox/raw/branch/main/zg/zg.jar;md5;7848a2534d2fc0016671ccd41dc49f0d",
+  "spider": "https://raw.githubusercontent.com/wdb33399/TVBox/refs/heads/main/zg/zg.jar;md5;7848a2534d2fc0016671ccd41dc49f0d",
   "sites": [
     {
       "key": "豆瓣2",
