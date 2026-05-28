@@ -1,31 +1,39 @@
 {
-  "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0518/23/9e2f951b6887c1b57ad600b25c53fb27.jpg;md5;7848a2534d2fc0016671ccd41dc49f0d",
   "sites": [
-    {
-      "key": "豆瓣2",
-      "name": "豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },
-    {
-      "key": "荐片",
-      "name": "💡荐片｜影视",
-      "api": "csp_JianPian",
-      "type": 3
-    },
-    {
-      "key": "热播影视",
-      "name": "💡热播｜影视",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "url": "http://v.rbotv.cn"
-      }
-    }
+{
+  "key": "农民影视",
+  "name": "💡农民｜影视",
+  "type": 3,
+  "api": "csp_Wwys",
+  "ext": "https://vip.wwgz.cn:5200",
+  "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg"
+},
+{
+  "key": "金牌影视",
+  "name": "💡金牌｜影视",
+  "type": 3,
+  "api": "csp_Jpys",
+  "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
+  "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg"
+},
+{
+  "key": "柠檬",
+  "name": "💡柠檬｜影视",
+  "type": 3,
+  "api": "csp_Nmvod",
+  "playerType": 2,
+  "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+  "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+},
+{
+  "key": "骚火影视",
+  "name": "💡骚火｜影视",
+  "type": 3,
+  "api": "csp_SaoHuo",
+  "playerType": 2,
+  "ext": "https://shdy5.us",
+  "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg"
+}
   ],
   "ijk": [
     {
