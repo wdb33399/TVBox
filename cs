@@ -1,11 +1,21 @@
 {
   "sites": [
 {
-  "key": "金牌123",
-  "name": "🥇金牌｜影视",
+  "key": "农民影视",
+  "name": "💡农民｜影视",
   "type": 3,
-  "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/金牌影院.js",
+  "api": "csp_Wwys",
+  "ext": "https://vip.wwgz.cn:5200",
   "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg"
+},
+{
+  "key": "剧评",
+  "name": "💡剧评┃影视",
+  "type": 3,
+  "api": "csp_Jpys",
+  "playerType": 1,
+  "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+  "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
 }
   ],
   "ijk": [
