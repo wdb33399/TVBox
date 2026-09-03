@@ -1,5 +1,5 @@
 {
-  "spider": "https://codeberg.org/wdb33399/TVBox/raw/branch/main/fxz/fxz250711.jar;md5;9AB53F593C034C2B80CDC9F4C785A6F3",
+  "spider": "https://raw.githubusercontent.com/wdb33399/TVBox/refs/heads/main/fxz/fxz250711.jar;md5;9AB53F593C034C2B80CDC9F4C785A6F3",
   "sites": [
     {
       "key": "天天",
