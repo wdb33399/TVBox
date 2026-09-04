@@ -1,19 +1,6 @@
 {
   "spider": "https://raw.githubusercontent.com/wdb33399/TVBox/refs/heads/main/lh/lh260315.jar;md5;f0da1869e7a46e57141d006aa70fe886",
   "wallpaper": "https://bing.img.run/uhd.php",
-  "lives": [
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "live",
-          "urls": [
-            "proxy://do=live&type=txt&ext="
-          ]
-        }
-      ]
-    }
-  ],
   "sites": [
     {
       "key": "天天",
@@ -494,6 +481,95 @@
     "HNB",
     "JL4K"
   ],
+  "rules": [
+    {
+      "name": "量非",
+      "hosts": [
+        "lz",
+        "vip.lz",
+        "v.cdnlz",
+        "hd.lz",
+        "ffzy",
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "360",
+      "hosts": [
+        "lyhuicheng"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
+        "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "开源棋牌",
+      "hosts": [
+        "askzycdn",
+        "jkunbf",
+        "bfikuncdn",
+        "bfaskcdn"
+      ],
+      "regex": [
+        "#EXT-X-KEY:METHOD=NONE\r*\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\r*\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "暴风",
+      "hosts": [
+        "bfengbf.com",
+        "bfzy",
+        "c1"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
+        "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "NO",
+      "hosts": [
+        "m3u.nikanba.live"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.100000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    }
+  ],
+  "lives": [
+    {
+      "name": "直播1",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/TV/live20220813.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15"
+    },
+    {
+      "name": "直播2",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+    {
+      "name": "咪咕直播",
+      "type": 0,
+      "url": "http://rihou.cc:555/gggg.nzk",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    }
+  ],
   "ijk": [
     {
       "group": "软解码",
@@ -504,9 +580,9 @@
           "value": "0"
         },
         {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
         },
         {
           "category": 4,
@@ -515,8 +591,8 @@
         },
         {
           "category": 4,
-          "name": "soundtouch",
-          "value": "1"
+          "name": "enable-accurate-seek",
+          "value": "0"
         },
         {
           "category": 4,
@@ -529,14 +605,14 @@
           "value": "0"
         },
         {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
         },
         {
           "category": 2,
           "name": "skip_loop_filter",
-          "value": "48"
+          "value": "0"
         },
         {
           "category": 4,
@@ -545,8 +621,8 @@
         },
         {
           "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
+          "name": "overlay-format",
+          "value": "842225234"
         },
         {
           "category": 4,
@@ -560,8 +636,8 @@
         },
         {
           "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
+          "name": "soundtouch",
+          "value": "1"
         },
         {
           "category": 4,
@@ -584,9 +660,9 @@
           "value": "0"
         },
         {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
         },
         {
           "category": 4,
@@ -595,8 +671,8 @@
         },
         {
           "category": 4,
-          "name": "soundtouch",
-          "value": "1"
+          "name": "enable-accurate-seek",
+          "value": "0"
         },
         {
           "category": 4,
@@ -609,14 +685,14 @@
           "value": "0"
         },
         {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
         },
         {
           "category": 2,
           "name": "skip_loop_filter",
-          "value": "48"
+          "value": "0"
         },
         {
           "category": 4,
@@ -625,8 +701,8 @@
         },
         {
           "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
+          "name": "overlay-format",
+          "value": "842225234"
         },
         {
           "category": 4,
@@ -640,7 +716,7 @@
         },
         {
           "category": 4,
-          "name": "mediacodec-handle-resolution-change",
+          "name": "soundtouch",
           "value": "1"
         },
         {
@@ -665,6 +741,8 @@
     "mscs.svaeuzh.cn",
     "cnzz.hhttm.top",
     "tp.vinuxhome.com",
+    "iqiyi.hbuioo.com",
+    "vip.ffzyad.com",
     "cnzz.mmstat.com",
     "www.baihuillq.com",
     "s23.cnzz.com",
@@ -685,6 +763,7 @@
     "mav.mavuz.com",
     "wofwk.aoidf3.com",
     "z5.cnzz.com",
+    "so.toutiao.com",
     "xc.hubeijieshikj.cn",
     "tj.tianwenhu.com",
     "xg.gars57.cn",
@@ -697,6 +776,7 @@
     "s13.cnzz.com",
     "xg.huataisangao.cn",
     "z7.cnzz.com",
+    "xg.huataisangao.cn",
     "z2.cnzz.com",
     "s96.cnzz.com",
     "q11.cnzz.com",
